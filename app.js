@@ -75,7 +75,7 @@ app.get("/articles/:articleTitle",(req,res)=> {
         }
     });
 });
-// 5 => PUT a specific article.
+// 5 => PUT a specific article. (verified)
 app.put("/articles/:articleTitle",(req,res)=> {
     ARTICLE.updateOne(
         {
